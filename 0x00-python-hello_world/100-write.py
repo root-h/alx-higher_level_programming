@@ -1,5 +1,4 @@
-#!/bin/bash
-python3 -m py_compile $PYFILE
-mv __pycache__/*.pyc ./$PYFILE'c'
-chmod +x $PYFILE'c'
-rmdir __pycache__
+#!/usr/bin/python3
+import sys
+sys.stderr.write("and that piece of art is useful - Dora Korpar, 2015-10-19\n")
+quit(1)
