@@ -1,4 +1,13 @@
 #!/usr/bin/node
-console.log('C is fun');
-console.log('Python is cool');
-console.log('JavaScript is amazing');
+// Script that prints 3 lines.
+const lines = [
+  'C is fun',
+  'Python is cool',
+  'JavaScript is amazing'
+];
+
+lines.forEach(print);
+
+function print (line) {
+  console.log(line);
+}

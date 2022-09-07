@@ -1,5 +1,3 @@
 #!/usr/bin/node
-module.exports = function() {
-  require('./100-main')
-  myVar = 333;
-}
+// override variable in 100-main.js to change content
+myVar = 333;

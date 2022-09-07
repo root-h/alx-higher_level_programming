@@ -1,1 +1,1 @@
-## A Javascript warm up
+javascript intro
